@@ -92,10 +92,6 @@ speedtest() {
     curl -s https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python3 -
 }
 
-dadjoke() {
-    curl https://icanhazdadjoke.com
-}
-
 # Find dictionary definition
 dict() {
     if [ "$3" ]; then
