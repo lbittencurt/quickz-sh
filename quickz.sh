@@ -52,6 +52,12 @@ else
     git clone --depth=1 https://github.com/zsh-users/zsh-history-substring-search ~/.oh-my-zsh/custom/plugins/zsh-history-substring-search
 fi
 
+if [ -d ~/.oh-my-zsh/custom/plugins/zsh-nvm ]; then
+    cd ~/.oh-my-zsh/custom/plugins/zsh-nvm && git pull
+else
+    git clone --depth=1 https://github.com/lukechilds/zsh-nvm ~/.oh-my-zsh/custom/plugins/zsh-nvm
+fi
+
 
 # INSTALL FONTS
 
